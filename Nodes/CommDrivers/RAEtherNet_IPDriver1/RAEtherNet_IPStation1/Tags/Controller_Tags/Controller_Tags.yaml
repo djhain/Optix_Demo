@@ -1,0 +1,791 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: Tank1_Level
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Tank1_Level"
+  - Name: @Alarms
+    Type: FolderType
+    ReferenceType: HasTagChild
+    Children:
+    - Name: TANK1_WARNING
+      Type: ALARM_CONDITION
+      DataType: ALARM_CONDITION
+      Children:
+      - Name: InFault
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.InFault"
+      - Name: Condition
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Condition"
+      - Name: AckRequired
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.AckRequired"
+      - Name: Latched
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Latched"
+      - Name: ProgAck
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgAck"
+      - Name: OperAck
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperAck"
+      - Name: ProgReset
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgReset"
+      - Name: OperReset
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperReset"
+      - Name: ProgSuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgSuppress"
+      - Name: OperSuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperSuppress"
+      - Name: ProgUnsuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgUnsuppress"
+      - Name: OperUnsuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperUnsuppress"
+      - Name: OperShelve
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperShelve"
+      - Name: ProgUnshelve
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgUnshelve"
+      - Name: OperUnshelve
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperUnshelve"
+      - Name: ProgDisable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgDisable"
+      - Name: OperDisable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperDisable"
+      - Name: ProgEnable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ProgEnable"
+      - Name: OperEnable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OperEnable"
+      - Name: AlarmCountReset
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.AlarmCountReset"
+      - Name: Limit
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Limit"
+      - Name: Severity
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Severity"
+      - Name: OnDelay
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OnDelay"
+      - Name: OffDelay
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.OffDelay"
+      - Name: ShelveDuration
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ShelveDuration"
+      - Name: MaxShelveDuration
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.MaxShelveDuration"
+      - Name: Deadband
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Deadband"
+      - Name: InAlarm
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.InAlarm"
+      - Name: Acked
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Acked"
+      - Name: InAlarmUnack
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.InAlarmUnack"
+      - Name: Suppressed
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Suppressed"
+      - Name: Shelved
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Shelved"
+      - Name: Disabled
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Disabled"
+      - Name: Used
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Used"
+      - Name: AlarmCount
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.AlarmCount"
+      - Name: InAlarmTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.InAlarmTime"
+      - Name: AckTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.AckTime"
+      - Name: RetToNormalTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.RetToNormalTime"
+      - Name: AlarmCountResetTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.AlarmCountResetTime"
+      - Name: ShelveTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.ShelveTime"
+      - Name: UnshelveTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.UnshelveTime"
+      - Name: Status
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Status"
+      - Name: AlarmFault
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.AlarmFault"
+      - Name: InFaulted
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.InFaulted"
+      - Name: SeverityInv
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.SeverityInv"
+      - Name: LimitInv
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.LimitInv"
+      - Name: DeadbandInv
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.DeadbandInv"
+      - Name: Overflow
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.TANK1_WARNING.Overflow"
+    - Name: T1_HI_HI
+      Type: ALARM_CONDITION
+      DataType: ALARM_CONDITION
+      Children:
+      - Name: InFault
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.InFault"
+      - Name: Condition
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Condition"
+      - Name: AckRequired
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.AckRequired"
+      - Name: Latched
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Latched"
+      - Name: ProgAck
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgAck"
+      - Name: OperAck
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperAck"
+      - Name: ProgReset
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgReset"
+      - Name: OperReset
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperReset"
+      - Name: ProgSuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgSuppress"
+      - Name: OperSuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperSuppress"
+      - Name: ProgUnsuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgUnsuppress"
+      - Name: OperUnsuppress
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperUnsuppress"
+      - Name: OperShelve
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperShelve"
+      - Name: ProgUnshelve
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgUnshelve"
+      - Name: OperUnshelve
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperUnshelve"
+      - Name: ProgDisable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgDisable"
+      - Name: OperDisable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperDisable"
+      - Name: ProgEnable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ProgEnable"
+      - Name: OperEnable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OperEnable"
+      - Name: AlarmCountReset
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.AlarmCountReset"
+      - Name: Limit
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Limit"
+      - Name: Severity
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Severity"
+      - Name: OnDelay
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OnDelay"
+      - Name: OffDelay
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.OffDelay"
+      - Name: ShelveDuration
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ShelveDuration"
+      - Name: MaxShelveDuration
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.MaxShelveDuration"
+      - Name: Deadband
+        Type: RAEtherNetIPTag
+        DataType: Float
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Deadband"
+      - Name: InAlarm
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.InAlarm"
+      - Name: Acked
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Acked"
+      - Name: InAlarmUnack
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.InAlarmUnack"
+      - Name: Suppressed
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Suppressed"
+      - Name: Shelved
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Shelved"
+      - Name: Disabled
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Disabled"
+      - Name: Used
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Used"
+      - Name: AlarmCount
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.AlarmCount"
+      - Name: InAlarmTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.InAlarmTime"
+      - Name: AckTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.AckTime"
+      - Name: RetToNormalTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.RetToNormalTime"
+      - Name: AlarmCountResetTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.AlarmCountResetTime"
+      - Name: ShelveTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.ShelveTime"
+      - Name: UnshelveTime
+        Type: RAEtherNetIPTag
+        DataType: Int64
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.UnshelveTime"
+      - Name: Status
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Status"
+      - Name: AlarmFault
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.AlarmFault"
+      - Name: InFaulted
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.InFaulted"
+      - Name: SeverityInv
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.SeverityInv"
+      - Name: LimitInv
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.LimitInv"
+      - Name: DeadbandInv
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.DeadbandInv"
+      - Name: Overflow
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Tank1_Level.@Alarms.T1_HI_HI.Overflow"

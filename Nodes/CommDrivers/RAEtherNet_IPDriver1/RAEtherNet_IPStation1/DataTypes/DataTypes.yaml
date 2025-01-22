@@ -1,0 +1,264 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: ALARM_CONDITION
+  Id: g=558912cddcd584e04d14e7f37cbc950c
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "ALARM_CONDITION",
+    "DataType": {
+     "IdType": 2,
+     "Id": "558912cddcd584e04d14e7f37cbc950c",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "InFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Condition",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AckRequired",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Latched",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgAck",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperAck",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgSuppress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperSuppress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgUnsuppress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperUnsuppress",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperShelve",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgUnshelve",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperUnshelve",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgDisable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperDisable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProgEnable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OperEnable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmCountReset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Limit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Severity",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OnDelay",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OffDelay",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ShelveDuration",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaxShelveDuration",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Deadband",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Acked",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InAlarmUnack",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Suppressed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Shelved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Disabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Used",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmCount",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InAlarmTime",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "AckTime",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "RetToNormalTime",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "AlarmCountResetTime",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "ShelveTime",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "UnshelveTime",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AlarmFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SeverityInv",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LimitInv",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DeadbandInv",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Overflow",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"ALARM_CONDITION"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
