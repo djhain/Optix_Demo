@@ -29,27 +29,15 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
-  23:
-   Uri: 'urn:FTOptix:DataLogger'
-   Module: FTOptix.DataLogger
-   Version: 1.0
-  25:
-   Uri: 'urn:FTOptix:Store'
-   Module: FTOptix.Store
-   Version: 1.0
-  27:
-   Uri: 'urn:FTOptix:SQLiteStore'
-   Module: FTOptix.SQLiteStore
-   Version: 1.0
  Statistics:
-  TotalNodeCount: 318
-  Objects: 104
+  TotalNodeCount: 294
+  Objects: 98
   ObjectTypes: 2
-  Variables: 212
+  Variables: 194
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 19
+  References: 1
   ReferenceTypes: 0
   Files: 23
  Nodes:
