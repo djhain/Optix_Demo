@@ -5,6 +5,10 @@ using System.Collections.Generic;
 using FTOptix.RAEtherNetIP;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
+using FTOptix.Report;
 #endregion
 
 public class AlarmFilterDataLogic : BaseNetLogic

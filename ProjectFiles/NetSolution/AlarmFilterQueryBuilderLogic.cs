@@ -15,6 +15,8 @@ using System.Linq;
 using System.Text;
 using FTOptix.RAEtherNetIP;
 using FTOptix.SerialPort;
+using FTOptix.SQLiteStore;
+using FTOptix.Report;
 #endregion
 
 public class AlarmFilterQueryBuilderLogic : BaseNetLogic

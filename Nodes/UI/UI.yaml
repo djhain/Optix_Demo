@@ -322,3 +322,4 @@ Children:
 - File: Screens/Screens.yaml
 - File: AlarmWidgets/AlarmWidgets.yaml
 - File: Panels/Panels.yaml
+- File: Variables/Variables.yaml

@@ -36,6 +36,7 @@ Children:
     DataType: String
     Value: "Program:MainProgram.M100_On"
 - Name: V100_Start
+  Id: g=9e6099b240fe3b3acd2ed4172e5f0e63
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -44,6 +45,7 @@ Children:
     DataType: String
     Value: "Program:MainProgram.V100_Start"
 - Name: V100_Stop
+  Id: g=1a5bb4f2690c6bfe710bcf7785c9e521
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -52,6 +54,7 @@ Children:
     DataType: String
     Value: "Program:MainProgram.V100_Stop"
 - Name: Create_Fault
+  Id: g=a449c6f02be8ab841769b0981242e593
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:

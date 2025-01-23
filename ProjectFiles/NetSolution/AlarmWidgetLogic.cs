@@ -4,6 +4,10 @@ using FTOptix.NetLogic;
 using FTOptix.Alarm;
 using FTOptix.RAEtherNetIP;
 using FTOptix.SerialPort;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.DataLogger;
+using FTOptix.Report;
 #endregion
 
 public class AlarmWidgetLogic : BaseNetLogic
