@@ -2,6 +2,7 @@ Name: 'Program:MainProgram'
 Type: FolderType
 Children:
 - Name: M100_Start
+  Id: g=4aa590e7bb0a89a43fb444c979ae6980
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -10,6 +11,7 @@ Children:
     DataType: String
     Value: "Program:MainProgram.M100_Start"
 - Name: M100_Stop
+  Id: g=31a3ce79e613a96696bb023905ab9650
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -17,14 +19,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:MainProgram.M100_Stop"
-- Name: M100_On
-  Type: RAEtherNetIPTag
-  DataType: Boolean
-  Children:
-  - Name: SymbolName
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "Program:MainProgram.M100_On"
 - Name: V100_On
   Type: RAEtherNetIPTag
   DataType: Boolean
@@ -33,6 +27,14 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Program:MainProgram.V100_On"
+- Name: M100_On
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.M100_On"
 - Name: V100_Start
   Type: RAEtherNetIPTag
   DataType: Boolean

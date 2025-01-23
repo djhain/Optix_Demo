@@ -1,0 +1,795 @@
+Name: Panels
+Type: FolderType
+Children:
+- Name: OnOff_PopUp
+  Id: g=337fb7edbc8ce49d01504594ee250386
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=3;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: 800FIlluminatedPushButton1
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: BorderOpacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 50.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#231f20"
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ff0000"
+    - Name: HousingColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e6e6e6"
+    - Name: LightOn
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.45500183105469
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.4530029296875
+    - Name: borderElement
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/IFlushHead800F_borderElement.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 50.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderOpacity"
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#231f20"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderColor"
+    - Name: HousingColorPE
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/IFlushHead800F_HousingColorPE.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e6e6e6"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../HousingColor"
+    - Name: MetalColor
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/IFlushHead800F_MetalColor.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e6e6e6"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../HousingColor"
+    - Name: _x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Housing_x5F_Overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Housing_x5F_Overlay.svg"
+    - Name: Fill
+      Type: Ellipse
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.400620460510254
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.406295776367188
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.64791107177734
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.64625549316406
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ff0000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: lightOff
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Light_x5F_OFF_x5F_Overlay.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}"
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../LightOn"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: 100.0
+    - Name: ButtonUp
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Not_x5F_Pressed.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+    - Name: ButtonDown
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Pressed.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+    - Name: _x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Light_x5F_ON_x5F_Underlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Light_x5F_ON_x5F_Underlay.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}"
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../LightOn"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+    - Name: Light_ON
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/IFlushHead800F_Light_ON.svg"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ff0000"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}"
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../LightOn"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+    - Name: _x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Light_x5F_ON_x5F_Overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_Light_x5F_ON_x5F_Overlay.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}"
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../../../LightOn"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Float
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+    - Name: _x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_ALL_x5F_Overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Illuminated_x5F_Flush_x5F_Head_x5F_ALL_x5F_Overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.45500183105469
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.4530029296875
+    - Name: ns=4;LibraryReference
+      Type: ObjectLibraryReference
+      DataType: ObjectLibraryReferenceDataType
+      ModellingRule: None
+      Value: 
+       {
+        "TypeId": {
+         "Id": 72,
+         "Namespace": 4
+        },
+        "Body": {
+         "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+         "objectGuid": "a8c76b470b9cdad154c88ffe3d6559d5",
+         "objectVersion": 1,
+         "highestIgnoredVersion": 0
+        }
+       }
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 52.0
+  - Name: 800FPushButton1
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: BorderOpacity
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 50.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#231f20"
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#39b54a"
+    - Name: HousingColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e6e6e6"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.45500183105469
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.4530029296875
+    - Name: BorderElement
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/FlushHead800F_BorderElement.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 50.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderOpacity"
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#231f20"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BorderColor"
+    - Name: HousingColorPE
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/FlushHead800F_HousingColorPE.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e6e6e6"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../HousingColor"
+    - Name: MetalColor
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/FlushHead800F_MetalColor.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e6e6e6"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../HousingColor"
+    - Name: Fill
+      Type: Ellipse
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.400620460510254
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.406295776367188
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.64791107177734
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.64625549316406
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#39b54a"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: _x38_00F_x5F_Flush_x5F_Head_x5F_Housing_x5F_Overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Flush_x5F_Head_x5F_Housing_x5F_Overlay.svg"
+    - Name: ButtonUp
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Flush_x5F_Head_x5F_Not_x5F_Pressed.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+        Value: 100.0
+    - Name: ButtonDown
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.45500183105469
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 97.4530029296875
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/_x38_00F_x5F_Flush_x5F_Head_x5F_Pressed.svg"
+      - Name: Opacity
+        Type: BaseVariableType
+        DataType: Float
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.45500183105469
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 97.4530029296875
+    - Name: ns=4;LibraryReference
+      Type: ObjectLibraryReference
+      DataType: ObjectLibraryReferenceDataType
+      ModellingRule: None
+      Value: 
+       {
+        "TypeId": {
+         "Id": 72,
+         "Namespace": 4
+        },
+        "Body": {
+         "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
+         "objectGuid": "b8e66bb9be03f33f961dc0b550e8b985",
+         "objectVersion": 1,
+         "highestIgnoredVersion": 0
+        }
+       }
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 172.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 52.0
